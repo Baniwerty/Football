@@ -1,0 +1,58 @@
+canvas{
+  display:block;
+    
+}
+
+.gameTitle{
+    width: 20px;
+    height: 20px;
+}
+
+.greeting{
+    
+    font-size: 40px;
+    color:rgb(255, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.input{
+    width:300px;
+    height:30px;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+    background-color:transparent;
+    font-size: 20px;
+    outline:  blueviolet;
+    color:rgb(255, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+::placeholder{
+  color:white;
+  opacity:0.5;
+
+}
+
+.button{
+    width:200px;
+  height:50px;
+  background-color: #ffd900;
+  border: 3px solid rgb(0, 0, 0);
+  color: rgb(255, 0, 0);
+  font-weight:bold;
+  border-radius: 10px;
+  margin-bottom:100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
